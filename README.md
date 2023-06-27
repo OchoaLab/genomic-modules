@@ -1,8 +1,12 @@
-Genomic Resource Modules
+# Genomic Resource Modules
+
+## Goal
 
 Our overall goal is to contribute in creating a diverse and dynamic genomics and genetics workforce. We aim to achieve this by training genetics and genomics enthusiasts from the greater Raleigh-Durham area, focusing on the historically marginalized communities. 
 
 These modules enable researchers from diverse labs to use publicly available genetics and genomics data and resources to understand and advance investigation of their research questions. 
+
+## Content
 
 This is a hands-on lecture series spread across 7 days with each day comprising of 30 minutes of talk and 30 minutes of exercises. Contents given below:
 
