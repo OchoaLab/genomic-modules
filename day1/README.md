@@ -12,5 +12,5 @@ Overview:
 
 ##### Required software:
 
-* Download and install IGV, if using the desktop version / [IGV web app](https://igv.org/app/)
+* [Download](https://software.broadinstitute.org/software/igv/download) and install IGV, if using the desktop version / [IGV web app](https://igv.org/app/)
 * [Create a user account in UCSC](https://genome.ucsc.edu/cgi-bin/hgSession)
