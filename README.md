@@ -12,9 +12,9 @@ These modules enable researchers from diverse labs to use publicly available gen
 This is a hands-on lecture series spread across 7 days with each day comprising of 30 minutes of talk and 30 minutes of exercises. Contents given below:
 
 [Day 1: Introduction, Clinical motivation and Genome Browsers](https://github.com/OchoaLab/genomic-modules/tree/main/day1) <br>
-Day 2: Gene Structure, Central Dogma, Splicing <br>
-Day 3: Genetic variation <br>
-Day 4: Genetic associations for common diseases <br>
-Day 5: Major genomic datasets and their availability <br>
-Day 6: Bridging data generation, analyses and clinical interpretation <br>
-Day 7: Conclusion and closing thoughts
+[Day 2: Gene Structure, Central Dogma, Splicing](https://github.com/OchoaLab/genomic-modules/tree/main/day2) <br>
+[Day 3: Genetic variation](https://github.com/OchoaLab/genomic-modules/tree/main/day3) <br>
+[Day 4: Genetic associations for common diseases](https://github.com/OchoaLab/genomic-modules/tree/main/day4) <br>
+[Day 5: Major genomic datasets and their availability](https://github.com/OchoaLab/genomic-modules/tree/main/day5) <br>
+[Day 6: Bridging data generation, analyses and clinical interpretation](https://github.com/OchoaLab/genomic-modules/tree/main/day6) <br>
+[Day 7: Conclusion and closing thoughts](https://github.com/OchoaLab/genomic-modules/tree/main/day7)
