@@ -18,3 +18,8 @@ This is a hands-on lecture series spread across 7 days with each day comprising 
 [Day 5: Major genomic datasets and their availability](https://github.com/OchoaLab/genomic-modules/tree/main/day5) <br>
 [Day 6: Bridging data generation, analyses and clinical interpretation](https://github.com/OchoaLab/genomic-modules/tree/main/day6) <br>
 [Day 7: Conclusion and closing thoughts](https://github.com/OchoaLab/genomic-modules/tree/main/day7)
+
+
+## Prework
+
+Links to resources for pre-reading can be found in [Wiki](https://github.com/OchoaLab/genomic-modules/wiki)
