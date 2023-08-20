@@ -70,6 +70,10 @@ ggplot(pca_input,mapping=aes(x=PC1,y=PC2,color = Population)) + geom_point() + x
 # label by super population info
 ggplot(pca_input,mapping=aes(x=PC1,y=PC2,color = Super_Population)) + geom_point() + xlab("PC1") + ylab("PC2")
 ```
+You should be able to see two plots, one with population info, one with super population info
+<img width="818" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/f357a91d-a2f1-4115-95e6-5d37e6411631">
+
+<img width="787" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/830813c2-4733-42e6-9ac0-3551f8942fcc">
 
 
 # Run Association Test
