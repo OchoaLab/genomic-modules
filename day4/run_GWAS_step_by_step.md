@@ -34,6 +34,42 @@ You will get an output with the PCs for each sample:
 all_populations.v_s_cnt_hwe_filter.LD_pruned.Rel_pruned.pca.eigenvec
 
 ## R code
+load libraries
+```{r}
+# if not installed run: 
+# install.packages("tidyverse")
+library(tidyverse)
+```
+load sample information (sample ID, population, and super population)
+```{r}
+sample_population_info_1kgp <- read_delim("sample_population_info_1kgp.tsv", 
+    delim = "\t", escape_double = FALSE, 
+    trim_ws = TRUE)
+head(sample_population_info_1kgp)
+```
+load PCA results
+```{r}
+all_populations_v_s_cnt_hwe_filter_LD_pruned_Rel_pruned_pca <- read_delim("all_populations.v_s_cnt_hwe_filter.LD_pruned.Rel_pruned.pca.eigenvec",
+    delim = "\t", escape_double = FALSE, 
+    trim_ws = TRUE)
+head(all_populations_v_s_cnt_hwe_filter_LD_pruned_Rel_pruned_pca)
+```
+
+use left_join() function to map the sample ID with population info
+```{r}
+pca_input <- left_join(all_populations_v_s_cnt_hwe_filter_LD_pruned_Rel_pruned_pca,
+  select(sample_population_info_1kgp, Sample, Population, Super_Population),
+  by = c("#IID" = "Sample")) %>% na.omit()
+head(pca_input)
+```
+
+plot the first two PCs
+```{r}
+# label by population info
+ggplot(pca_input,mapping=aes(x=PC1,y=PC2,color = Population)) + geom_point() + xlab("PC1") + ylab("PC2")
+# label by super population info
+ggplot(pca_input,mapping=aes(x=PC1,y=PC2,color = Super_Population)) + geom_point() + xlab("PC1") + ylab("PC2")
+```
 
 
 # Run Association Test
