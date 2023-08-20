@@ -46,4 +46,7 @@ unzip plink2_win64_20230813.zip
 ```
 
 # R and Rstudio Installation
+## R
+## Rstudio
+## R packages
 
