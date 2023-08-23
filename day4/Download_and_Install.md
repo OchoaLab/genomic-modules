@@ -49,4 +49,10 @@ unzip plink2_win64_20230813.zip
 ## R
 ## Rstudio
 ## R packages
+```{r}
+install.packages("tidyverse")
+```
+```{r}
+install.packages("qqman")
+```
 
