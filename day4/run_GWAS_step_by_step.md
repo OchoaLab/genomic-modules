@@ -93,6 +93,11 @@ mv plink2.PHENO1.glm.logistic.hybrid all_populations.glm.logistic.hybrid
 
 ## R code
 ### general steps of checking glm results
+load library
+```{r}
+library(qqman)
+```
+
 load glm result file
 ```{r}
 all_populations_glm_hybrid <- read_table("<path_to_file>/all_populations.glm.logistic.hybrid")
