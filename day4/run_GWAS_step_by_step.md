@@ -14,7 +14,7 @@ LD pruning
 ./plink2 --pfile all_populations.v_s_cnt_hwe_filter --indep-pairwise 1500 150 0.2 \
 --make-pgen --out all_populations.v_s_cnt_hwe_filter.LD
 ./plink2 --pfile all_populations.v_s_cnt_hwe_filter --extract all_populations.v_s_cnt_hwe_filter.LD.prune.in  \
---make-pgen --out call_populations.v_s_cnt_hwe_filter.LD_pruned
+--make-pgen --out all_populations.v_s_cnt_hwe_filter.LD_pruned
 ```
 filter on relatedness
 ```
