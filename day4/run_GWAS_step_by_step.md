@@ -155,6 +155,10 @@ mv plink2.PHENO1.glm.logistic.hybrid African.glm.logistic.hybrid
 ```
 
 ## R code
+load library
+```
+library(qqman)
+```
 load glm result file
 ```{r}
 African_glm_hybrid <- read_table("<path_to_file>/African.glm.logistic.hybrid")
