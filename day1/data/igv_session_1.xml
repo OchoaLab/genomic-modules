@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg38" hasGeneTrack="true" hasSequenceTrack="true" locus="chr6:124845090-125577114" version="8">
+    <Resources>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep4.output.bw"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep2.peak.final.bed"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep1.input.bw"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep6.input.bw"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep1.output.bw"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep2.input.bw"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep3.output.bw"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep5.output.bw"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep3.peak.final.bed"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep6.peak.final.bed"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep3.input.bw"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep4.peak.final.bed"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep1.peak.final.bed"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep5.peak.final.bed"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep2.output.bw"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep5.input.bw"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep4.input.bw"/>
+        <Resource path="../Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep6.output.bw"/>
+    </Resources>
+    <Panel height="534" name="DataPanel" width="2031">
+        <Track attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep1.input.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="15" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep1.input.bw" name="k562_chr6_rep1_input" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="177.03691" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="153,153,0" attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep1.output.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,153,153" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep1.output.bw" name="k562_chr6_rep1_output" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="35.75165" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep2.input.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep2.input.bw" name="k562_chr6_rep2_input" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="269.90396" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="255,102,102" attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep2.output.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,153,153" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep2.output.bw" name="k562_chr6_rep2_output" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="40.326332" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep3.input.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep3.input.bw" name="k562_chr6_rep3_input" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="285.16354" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="255,102,102" attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep3.output.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,153,153" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep3.output.bw" name="k562_chr6_rep3_output" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="34.100445" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep4.input.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep4.input.bw" name="k562_chr6_rep4_input" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="279.98444" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="255,102,102" attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep4.output.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,153,153" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep4.output.bw" name="k562_chr6_rep4_output" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="82.094864" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep5.input.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep5.input.bw" name="k562_chr6_rep5_input" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="266.36194" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="255,102,102" attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep5.output.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,153,153" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep5.output.bw" name="k562_chr6_rep5_output" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="20.90772" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,204" attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep6.input.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,204" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep6.input.bw" name="k562_chr6_rep6_input" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="210.86539" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="255,102,102" attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep6.output.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,153,153" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep6.output.bw" name="k562_chr6_rep6_output" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="23.981518" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="549" name="FeaturePanel" width="2031">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="15" id="Reference sequence" name="Reference sequence" visible="true"/>
+        <Track altColor="0,0,178" attributeKey="Gene" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;845.0;255,255,255;0,0,178" fontSize="15" height="35" id="hg38_genes" name="Gene" visible="true"/>
+        <Track altColor="0,0,178" attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep1.peak.final.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep1.peak.final.bed" name="K562_Output_rep1.peak.final.bed" visible="true"/>
+        <Track altColor="0,0,178" attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep2.peak.final.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep2.peak.final.bed" name="K562_Output_rep2.peak.final.bed" visible="true"/>
+        <Track altColor="0,0,178" attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep3.peak.final.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep3.peak.final.bed" name="K562_Output_rep3.peak.final.bed" visible="true"/>
+        <Track altColor="0,0,178" attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep4.peak.final.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep4.peak.final.bed" name="K562_Output_rep4.peak.final.bed" visible="true"/>
+        <Track altColor="0,0,178" attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep5.peak.final.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep5.peak.final.bed" name="K562_Output_rep5.peak.final.bed" visible="true"/>
+        <Track altColor="0,0,178" attributeKey="KS91_K562_hg38_ASTARRseq_Output_rep6.peak.final.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="15" height="40" id="/Users/rv103/Revathy/Duke/Collab/Jamborees/results_peakcalls/KS91_K562_hg38_ASTARRseq_Output_rep6.peak.final.bed" name="K562_Output_rep6.peak.final.bed" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.4917431192660551"/>
+</Session>
