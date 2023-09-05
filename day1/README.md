@@ -7,8 +7,7 @@
 Overview:
 
 * Section 1: Introduction to Genome browsers - UCSC and IGV
-* Section 2: Hands-on tutorial and exercises in UCSC/IGV
-* Section 3: Hands-on tutorial and exercises for gene expression tracks
+* Section 2: Hands-on tutorial and exercises in IGV
 
 ##### Required software:
 
