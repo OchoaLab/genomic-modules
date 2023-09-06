@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Session genome="hg38" hasGeneTrack="true" hasSequenceTrack="true" locus="chr6:68392277-70925769" version="8">
     <Resources>
-        <Resource path="day1/data/Experiment.bw"/>
-        <Resource path="day1/data/Control.bw"/>
-        <Resource path="day1/data/Regulatory_sites.bed"/>
+        <Resource path="data/Experiment.bw"/>
+        <Resource path="data/Control.bw"/>
+        <Resource path="data/Regulatory_sites.bed"/>
     </Resources>
     <Panel height="342" name="DataPanel" width="1679">
         <Track attributeKey="Experiment.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="/Users/rv103/Revathy/Duke/GenomicResourceModules/data/Upload/Experiment.bw" name="Experiment.bw" renderer="BAR_CHART" visible="true" windowFunction="mean">
