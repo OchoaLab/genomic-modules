@@ -6,17 +6,17 @@
         <Resource path="data/Regulatory_sites.bed"/>
     </Resources>
     <Panel height="342" name="DataPanel" width="1679">
-        <Track attributeKey="Experiment.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="/Users/rv103/Revathy/Duke/GenomicResourceModules/data/Upload/Experiment.bw" name="Experiment.bw" renderer="BAR_CHART" visible="true" windowFunction="mean">
+        <Track attributeKey="Experiment.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="data/Experiment.bw" name="Experiment.bw" renderer="BAR_CHART" visible="true" windowFunction="mean">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="78.07143" minimum="0.0" type="LINEAR"/>
         </Track>
-        <Track attributeKey="Control.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="/Users/rv103/Revathy/Duke/GenomicResourceModules/data/Upload/Control.bw" name="Control.bw" renderer="BAR_CHART" visible="true" windowFunction="mean">
+        <Track attributeKey="Control.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="data/Control.bw" name="Control.bw" renderer="BAR_CHART" visible="true" windowFunction="mean">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="476.44952" minimum="0.0" type="LINEAR"/>
         </Track>
     </Panel>
     <Panel height="283" name="FeaturePanel" width="1679">
         <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" visible="true"/>
         <Track attributeKey="Gene" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;845.0;255,255,255;0,0,178" fontSize="10" height="35" id="hg38_genes" name="Gene" visible="true"/>
-        <Track attributeKey="Regulatory_sites.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="10" id="/Users/rv103/Revathy/Duke/GenomicResourceModules/data/Upload/Regulatory_sites.bed" name="Regulatory_sites.bed" visible="true"/>
+        <Track attributeKey="Regulatory_sites.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="10" id="data/Regulatory_sites.bed" name="Regulatory_sites.bed" visible="true"/>
     </Panel>
     <PanelLayout dividerFractions="0.5443037974683544"/>
 </Session>
