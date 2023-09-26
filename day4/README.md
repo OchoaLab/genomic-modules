@@ -1,4 +1,4 @@
 ### Contents for Day 4:
 
-Genetic association for common disease; how variants arise, drift, etc <br>
-Genotype data, simulated phenotypes
+Major genomic datasets and what is available from them <br>
+SPAG1 deletion example
