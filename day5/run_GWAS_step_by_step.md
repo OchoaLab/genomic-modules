@@ -114,14 +114,14 @@ data
 ```
 Use the `left_join()` function to map the sample ID to their corresponding population info:
 ```{r}
-data <- left_join( data, info, by = c("#IID" = "Sample") )
+data <- left_join(data, info, by = c("#IID" = "Sample"))
 # better way to inspect big tables:
 View( data )
 ```
 Plot the first two PCs, which reveal the principal axes of variation of allele frequencies in our African samples.  You should see the following plot of individuals in PCA space, colored according to their population.  PC1 distinguishes admixed populations (ASW, ACB, both of which have some European ancestry) from the rest of the populations, which are practically unadmixed.  In contrast, PC2 distinguishes far Western African ancestry (GWD and MSL) from central populations, which also share linguistic connections.
 ```{r}
 # label by population info
-ggplot( data, aes( x = PC1, y = PC2, color = Population ) ) + geom_point()
+ggplot(data, aes(x = PC1, y = PC2, color = Population)) + geom_point()
 ```
 ![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/a445926a-ca23-421f-8d56-4d5a2f9489ed)
 
@@ -130,8 +130,8 @@ ggplot( data, aes( x = PC1, y = PC2, color = Population ) ) + geom_point()
 
 Load the association table:
 ```{r}
-data <- read_tsv("African.filtered.PHENO1.glm.logistic.hybrid")
-data
+result <- read_tsv("African.filtered.PHENO1.glm.logistic.hybrid")
+result
 ```
 Load the list of causal variants:
 ```{r}
@@ -139,11 +139,11 @@ causal_variants <- read_lines("variant_ID_APOL1_G1_and_G2.txt")
 ```
 Edit the column names to match what the `manhattan` function prefers:
 ```{r}
-colnames(data)[1:3] <- c("CHR","BP","SNP")
+colnames(result)[1:3] <- c("CHR","BP","SNP")
 ```
 Make the Manhattan plot, which reveals the locations of associated variants.  Each point is a variant, points above the red line are usually significant, and points above the blue line are considered "suggestive".  Since we simulated the trait, we know which are the two true causal variants, which we highlighted in green.  Note that several non-causal variants are also significant, which are neighbors of the causal ones and appear significant due to linkage disequilibrium (LD).  The smaller peak on the far right is not significant and is not a true association either (it's important not to overinterpret such weaker peaks)!
 ```{r}
-manhattan( data, highlight = causal_variants )
+manhattan(result, highlight = causal_variants)
 ```
 ![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/77b69b3e-347f-4e0c-8bde-d1756d57473f)
 
@@ -156,7 +156,7 @@ When the test is well calibrated, the data curve is near the y=x (red) line for 
 However, if the test is not well-calibrated (often called "inflated"), which happens for a variety of interesting reasons, the data curve departs from the red line much sooner than expected, in which case null p-values are not actually uniform and the significant results cannot be trusted (technically, the test is not correctly controlling the type I error).
 This case looks quite good considering our small sample size and the skewed proportion of cases and controls (ideally it should be 1:1 for this test).
 ```{r}
-qq(data$P, main = "QQ Plot")
+qq(result$P, main = "QQ Plot")
 ```
 ![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/0c4d12e6-6e74-4e51-99b4-f1350d6e3f72)
 
