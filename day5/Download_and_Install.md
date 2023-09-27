@@ -46,8 +46,15 @@ unzip plink2_win64_20230813.zip
 ```
 
 # R and Rstudio Installation
+Video for installing R and Rstudio for windows: https://www.youtube.com/watch?v=TFGYlKvQEQ4
+Video for installing R and Rstudio for macbook: https://www.youtube.com/watch?v=AEebOXiMyyI
 ## R
+R can be downloaded from https://cran.r-project.org/
+click on the the correct link to match your own computer system and download the corresponding R
+![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/4965473e-9a2d-4eb1-9fff-5c452488cccb)
 ## Rstudio
+You can search for rstudio.com as shown in the video and you will be directed to the new website: https://posit.co/products/open-source/rstudio/
+Rstudio can be downloaded and installed using a similar way described in the videos above. 
 ## R packages
 ```{r}
 install.packages("tidyverse")
