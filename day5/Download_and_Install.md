@@ -1,4 +1,6 @@
 # Plink Data
+Download data folder under day5
+
 # Plink2 Downloading and Installation
 
 See downloading instructions: https://www.cog-genomics.org/plink/2.0/
@@ -44,10 +46,20 @@ wget https://s3.amazonaws.com/plink2-assets/alpha4/plink2_win64_20230813.zip
 unzip plink2_win64_20230813.zip
 ./plink2
 ```
+# Using Plink2
+We will run all the plink2 commands in shell (command line). If you are not familiar with shell or command line, that's totally fine! 
+
+Check this introduction: https://datacarpentry.org/shell-genomics/01-introduction.html
+
+Once you get familiar with command line, you can check the plink2 documentations for file formats and availble functions: https://www.cog-genomics.org/plink/2.0/
 
 # R and Rstudio Installation
 Video for installing R and Rstudio for windows: https://www.youtube.com/watch?v=TFGYlKvQEQ4
+
 Video for installing R and Rstudio for macbook: https://www.youtube.com/watch?v=AEebOXiMyyI
+
+Not familiar with R? Check this: https://datacarpentry.org/genomics-r-intro/00-introduction.html
+
 ## R
 R can be downloaded from https://cran.r-project.org/
 click on the the correct link to match your own computer system and download the corresponding R
