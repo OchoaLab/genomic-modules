@@ -123,7 +123,8 @@ Plot the first two PCs, which reveal the principal axes of variation of allele f
 # label by population info
 ggplot( data, aes( x = PC1, y = PC2, color = Population ) ) + geom_point()
 ```
-<img width="818" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/f357a91d-a2f1-4115-95e6-5d37e6411631">
+![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/a445926a-ca23-421f-8d56-4d5a2f9489ed)
+
 
 ## Manhattan plot
 
@@ -144,7 +145,8 @@ Make the Manhattan plot, which reveals the locations of associated variants.  Ea
 ```{r}
 manhattan( data, highlight = causal_variants )
 ```
-<img width="757" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/ab57745b-8418-4542-a668-5c3029d01d02">
+![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/77b69b3e-347f-4e0c-8bde-d1756d57473f)
+
 
 ## Quantile-Quantile (QQ) plot
 
@@ -156,5 +158,6 @@ This case looks quite good considering our small sample size and the skewed prop
 ```{r}
 qq(data$P, main = "QQ Plot")
 ```
-<img width="750" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/976db84e-5200-4de3-89e3-87ffc49f1b40">
+![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/0c4d12e6-6e74-4e51-99b4-f1350d6e3f72)
+
 
