@@ -1,5 +1,5 @@
 # Plink Data
-Download data folder under day5
+Download the data folder under day5
 
 # Plink2 Downloading and Installation
 
