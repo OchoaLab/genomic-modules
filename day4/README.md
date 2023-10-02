@@ -1,4 +1,4 @@
 ### Contents for Day 4:
 
-Major genomic datasets and what is available from them <br>
-SPAG1 deletion example
+Comparison of RNA and DNA sequencing datasets <br>
+Exploring different mechanisms of gene regulation in sequencing data
