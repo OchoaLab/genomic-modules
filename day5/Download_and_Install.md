@@ -5,15 +5,19 @@ you can download the whole repo:
 ![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/9df1b960-5dd6-4baa-a23a-af88711b3321)
 
 ## option 2
-# Plink2 Downloading and Installation
+nevigate to genomic-modules/day5/data, and download the files in red frames one by one:
+![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/c6b6a220-3908-4211-8969-7222cfa4a253)
+click on the file name and then click on the download button:
+![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/27f43063-7d6b-40d5-8466-d3067b8b2ffc)
 
+# Plink2 Downloading and Installation
 See downloading instructions: https://www.cog-genomics.org/plink/2.0/
 
 ## Downloading Examples:
 
-Mac OS
+### Mac OS
 
-M1
+MAC-M1
 ```
 wget https://s3.amazonaws.com/plink2-assets/alpha4/plink2_mac_arm64_20230813.zip
 unzip plink2_mac_arm64_20230813.zip
@@ -37,19 +41,20 @@ Commands include --rm-dup list, --make-bpgen, --export, --freq, --geno-counts,
 
 "plink2 --help | more" describes all functions.
 ```
-Intel
+MAC-Intel
 ```
 wget https://s3.amazonaws.com/plink2-assets/alpha4/plink2_mac_20230813.zip
 unzip plink2_mac_20230813.zip
 ./plink2
 ```
-
+### windows
 Windows 64-bit
 ```
 wget https://s3.amazonaws.com/plink2-assets/alpha4/plink2_win64_20230813.zip
 unzip plink2_win64_20230813.zip
 ./plink2
 ```
+
 # Using Plink2
 We will run all the plink2 commands in shell (command line). If you are not familiar with shell or command line, that's totally fine! 
 
