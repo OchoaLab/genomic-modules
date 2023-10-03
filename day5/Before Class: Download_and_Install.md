@@ -18,6 +18,13 @@ See downloading instructions: https://www.cog-genomics.org/plink/2.0/
 ### Mac OS
 
 MAC-M1
+
+open a terminal on your macbook (you can find it in Applications -> Utilities -> Terminal)
+
+<img src="https://github.com/OchoaLab/genomic-modules/assets/53951161/dc1beb98-7106-47a7-9914-4a58744a778a" width="800">
+
+
+
 ```
 wget https://s3.amazonaws.com/plink2-assets/alpha4/plink2_mac_arm64_20230813.zip
 unzip plink2_mac_arm64_20230813.zip
