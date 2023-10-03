@@ -63,9 +63,9 @@ Check this introduction: https://datacarpentry.org/shell-genomics/01-introductio
 Once you get familiar with command line, you can check the plink2 documentations for file formats and availble functions: https://www.cog-genomics.org/plink/2.0/
 
 # R and Rstudio Installation
-Video for installing R and Rstudio for windows: https://www.youtube.com/watch?v=TFGYlKvQEQ4
-
 Video for installing R and Rstudio for macbook: https://www.youtube.com/watch?v=AEebOXiMyyI
+
+Video for installing R and Rstudio for windows: https://www.youtube.com/watch?v=TFGYlKvQEQ4
 
 Not familiar with R? Check this: https://datacarpentry.org/genomics-r-intro/00-introduction.html
 
