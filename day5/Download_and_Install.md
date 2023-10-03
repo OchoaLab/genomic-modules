@@ -1,6 +1,10 @@
 # Plink Data
 Download the data folder under day5
+## option 1
+you can download the whole repo:
+![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/9df1b960-5dd6-4baa-a23a-af88711b3321)
 
+## option 2
 # Plink2 Downloading and Installation
 
 See downloading instructions: https://www.cog-genomics.org/plink/2.0/
