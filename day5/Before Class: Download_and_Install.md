@@ -108,9 +108,28 @@ You can search for rstudio.com as shown in the video and you will be directed to
 Rstudio can be downloaded and installed using a similar way described in the videos above. 
 
 ## R packages
-You can type the following commands into the console directlty or in a Rscript or Rmarkdown.
+You can type the following commands into the console directlty or in a Rscript or Rmarkdown. We will use Rmarkdown to run all the r commands in the exercise.
+
+Before installing the packages, we will need to create a R project. If you are not familiar with what R project is and how to create a R project, check this： https://datacarpentry.org/genomics-r-intro/00-introduction.html#create-an-rstudio-project
+
+### Create R project
+1. Double click on the Rstudio to open it
+   
+2. To create a project, go to the File menu, and click `New Project…`. In the window that opens, click `New Directory`.
+   
+   <img src="https://github.com/OchoaLab/genomic-modules/assets/53951161/8e292186-9ade-4a4c-9556-951597af2aa9" width="500">
+
+   Then click `New Project `
+
+   <img src="https://github.com/OchoaLab/genomic-modules/assets/53951161/b2f0137e-c7a0-4e20-8ddd-befe5cc0be3d" width="500">
 
 
+3. For “Directory name:” enter `GWAS`. For “Create project as subdirectory of”, click `Browse…` and then nevigate to where you downloaded the plink files and plink2 then clink `Choose`.
+
+   <img src="https://github.com/OchoaLab/genomic-modules/assets/53951161/8a9acedf-c7ce-43f1-b183-4705887da893" width="500">
+
+
+### Installation
 ```{r}
 install.packages("tidyverse")
 ```
