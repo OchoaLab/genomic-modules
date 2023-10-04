@@ -106,11 +106,16 @@ click on the the correct link to match your own computer system and download the
 ## Rstudio
 You can search for rstudio.com as shown in the video and you will be directed to the new website: https://posit.co/products/open-source/rstudio/
 Rstudio can be downloaded and installed using a similar way described in the videos above. 
+
 ## R packages
+You can type the following commands into the console directlty or in a Rscript or Rmarkdown.
+
+
 ```{r}
 install.packages("tidyverse")
 ```
 ```{r}
 install.packages("qqman")
 ```
+To check if the libraries are installed
 
