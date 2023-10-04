@@ -4,6 +4,9 @@
 
 Check that your input genotype files are in the same folder as your `plink2` executable and your R project in a folder named `GWAS`, and run the following commands from that same directory on your terminal.
 
+<img width="465" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/2024a20f-e7f8-48da-a92e-4233c404e842">
+
+
 ## Data description
 
 The genotype data is the African ancestry subset of 1000 Genomes, for chromosome 22 only, and is saved in this set of three files:
@@ -90,8 +93,32 @@ The terminal output is again omitted here.
 
 
 # Data visualization in R
+Create a R markdown file:
+1. click `New File` and choose `R markdown`:
 
-Inside the R prompt, run the following commands to load the two R packages we need:
+   ![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/44d8016f-64d9-48ec-8b2c-6dda7e053a2a)
+
+
+3. Name your R markdown file as `GWAS_Visual`, click `OK`:
+
+   <img width="580" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/ed5e1a24-acc5-4676-b646-c11d11c03440">
+
+
+Inside the R markdown, replace the existing commands with:
+```
+---
+title: "GWAS_Visual"
+output: html_document
+date: "2023-10-09"
+---
+```
+
+For the following steps, we need to insert a chunk and run chunk by chunk. To insert a chunk, click on the green botton with `+c` meaning insert a new code chunk, then choose R:
+
+![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/d964cc7e-0537-48d7-bad7-535df578010d)
+
+
+run the following commands to load the two R packages we need:
 ```{r}
 # if not installed run: 
 # install.packages("tidyverse")
