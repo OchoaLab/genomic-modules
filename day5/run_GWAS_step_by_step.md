@@ -93,6 +93,28 @@ The terminal output is again omitted here.
 
 
 # Data visualization in R
+Set the working directory (this will help your R to locate the files directly):
+
+
+In `Session`, click `Set Working Directory` then choose `Choose Directory`:
+
+<img width="850" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/ae50f232-0cde-4566-8665-9401fbf0e037">
+
+
+Navigate to the `data` folder, which should be right outside of the `GWAS` folder, and click `Open`:
+
+<img width="788" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/72795693-185d-4ec2-ad91-b83c05aa56f9">
+
+
+You will see this command (the path will be different in your R):
+
+```
+setwd("/Users/yunchengduan/OneDrive - Duke University/Projects/GenomicModule/data")
+```
+`setwd` means set-working-directory and the path to the directory is in the `()`.
+
+
+
 Create a R markdown file:
 1. click `New File` and choose `R markdown`:
 
@@ -104,7 +126,7 @@ Create a R markdown file:
    <img width="580" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/ed5e1a24-acc5-4676-b646-c11d11c03440">
 
 
-Inside the R markdown, replace the existing commands with:
+Inside the R notebook, replace the existing commands with:
 ```
 ---
 title: "GWAS_Visual"
