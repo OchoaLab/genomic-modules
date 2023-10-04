@@ -108,7 +108,6 @@ You can search for rstudio.com as shown in the video and you will be directed to
 Rstudio can be downloaded and installed using a similar way described in the videos above. 
 
 ## R packages
-You can type the following commands into the console directlty or in a Rscript or Rmarkdown. We will use Rmarkdown to run all the r commands in the exercise.
 
 Before installing the packages, we will need to create a R project. If you are not familiar with what R project is and how to create a R project, check this： https://datacarpentry.org/genomics-r-intro/00-introduction.html#create-an-rstudio-project
 
@@ -130,6 +129,8 @@ Before installing the packages, we will need to create a R project. If you are n
 
 
 ### Installation
+
+You can type the following commands into the console directlty or in a Rscript or Rmarkdown. We will use Rmarkdown to run all the r commands in the exercise.
 ```{r}
 install.packages("tidyverse")
 ```
@@ -137,4 +138,9 @@ install.packages("tidyverse")
 install.packages("qqman")
 ```
 To check if the libraries are installed
+
+```{r}
+library("tidyverse")
+library("qqman")
+```
 
