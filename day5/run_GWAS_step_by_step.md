@@ -2,7 +2,7 @@
 
 ## Before running
 
-Check that your input genotype files are in the same folder as your `plink2` executable and your R project named `GWAS`, and run the following commands from that same directory on your terminal.
+Check that your input genotype files are in the same folder as your `plink2` executable and your R project in a folder named `GWAS`, and run the following commands from that same directory on your terminal.
 
 ## Data description
 
