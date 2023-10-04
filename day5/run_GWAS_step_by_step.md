@@ -4,8 +4,7 @@
 
 Check that your input genotype files are in the same folder as your `plink2` executable and your R project in a folder named `GWAS`, and run the following commands from that same directory on your terminal.
 
-<img width="465" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/2024a20f-e7f8-48da-a92e-4233c404e842">
-
+<img width="475" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/1dbd0c0f-ccbc-46d5-9e08-6394addd61cc">
 
 ## Data description
 
@@ -93,7 +92,9 @@ The terminal output is again omitted here.
 
 
 # Data visualization in R
-Set the working directory (this will help your R to locate the files directly):
+
+## Set working directory
+This will help your R to locate the files directly:
 
 
 In `Session`, click `Set Working Directory` then choose `Choose Directory`:
@@ -115,7 +116,13 @@ setwd("/Users/yunchengduan/OneDrive - Duke University/Projects/GenomicModule/dat
 
 
 
-Create a R markdown file:
+Check the current working directory:
+
+![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/1ee22a0c-b039-439f-b9b4-bf2501cf5e00)
+
+
+
+## Create a R markdown file:
 1. click `New File` and choose `R markdown`:
 
    ![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/44d8016f-64d9-48ec-8b2c-6dda7e053a2a)
@@ -148,6 +155,12 @@ run the following commands to load the two R packages we need:
 library(tidyverse)
 library(qqman)
 ```
+Click the `run` button to run the commands in the chunk and the output will be shown right below the chunk:
+
+![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/0844ac0b-1e2a-413c-89dc-3a01f1c88db1)
+
+
+
 
 ## PCA plot
 
