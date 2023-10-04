@@ -5,26 +5,49 @@ you can download the whole repo:
 ![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/9df1b960-5dd6-4baa-a23a-af88711b3321)
 
 ## option 2
-nevigate to genomic-modules/day5/data, and download the files in red frames one by one:
+Nevigate to genomic-modules/day5/data, and download the files in red frames one by one:
 ![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/c6b6a220-3908-4211-8969-7222cfa4a253)
-click on the file name and then click on the download button:
+Click on the file name and then click the download button:
 ![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/27f43063-7d6b-40d5-8466-d3067b8b2ffc)
 
 # Plink2 Downloading and Installation
+We will run all the plink2 commands in shell (command line). If you are not familiar with shell or command line, that's totally fine! 
+
+Check this introduction: https://datacarpentry.org/shell-genomics/01-introduction.html (highly recommend)
+
 See downloading instructions: https://www.cog-genomics.org/plink/2.0/
 
 ## Downloading Examples:
 
 ### Mac OS
 
-MAC-M1
+#### MAC-M1
 
-open a terminal on your macbook (you can find it in Applications -> Utilities -> Terminal)
+1. Open a terminal on your macbook (you can find it in Applications -> Utilities -> Terminal)
 
 <img src="https://github.com/OchoaLab/genomic-modules/assets/53951161/dc1beb98-7106-47a7-9914-4a58744a778a" width="800">
 
+Alternatively, you can find it in the launchpad >> others 
+
+2. Once you opened the terminal, nativegate to the directory where your `data` folder located using `cd` command. 
+
+You can manually type the path to the directory, or you can drag the folder after the `cd` command. (Note that there should be a `space` between `cd` and the path.
+
+<img src="https://github.com/OchoaLab/genomic-modules/assets/53951161/ca3205d8-9cf4-4c91-a0b6-ec726a75d2f9" width="800">
 
 
+and you will get this：
+
+<img width="800" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/f46d08a5-f56a-4eb7-a3be-5a30f7d16e9f">
+
+3. Hit `return` and you should be in the directory which has the plink files. Note that the path to the directory on your terminal will look different to what I have in the picture above. 
+
+4. Check where you're using `pwd` and the files under the directory using `ls`. 
+
+  Again, it's totally fine if you're not familiar with those commands. Reading through this introduction https://datacarpentry.org/shell-genomics/01-introduction.html is highly recommended. It will help you get prepared for this session. 
+
+
+5. Copy this in your terminal to download and install plink2
 ```
 wget https://s3.amazonaws.com/plink2-assets/alpha4/plink2_mac_arm64_20230813.zip
 unzip plink2_mac_arm64_20230813.zip
@@ -48,14 +71,17 @@ Commands include --rm-dup list, --make-bpgen, --export, --freq, --geno-counts,
 
 "plink2 --help | more" describes all functions.
 ```
-MAC-Intel
+
+#### MAC-Intel
+The first few steps to nevigate to the data directory is the same as MAC-M1
 ```
 wget https://s3.amazonaws.com/plink2-assets/alpha4/plink2_mac_20230813.zip
 unzip plink2_mac_20230813.zip
 ./plink2
 ```
+
 ### windows
-Windows 64-bit
+#### Windows 64-bit
 ```
 wget https://s3.amazonaws.com/plink2-assets/alpha4/plink2_win64_20230813.zip
 unzip plink2_win64_20230813.zip
@@ -63,11 +89,8 @@ unzip plink2_win64_20230813.zip
 ```
 
 # Using Plink2
-We will run all the plink2 commands in shell (command line). If you are not familiar with shell or command line, that's totally fine! 
 
-Check this introduction: https://datacarpentry.org/shell-genomics/01-introduction.html
-
-Once you get familiar with command line, you can check the plink2 documentations for file formats and availble functions: https://www.cog-genomics.org/plink/2.0/
+You can check the plink2 documentations for file formats and availble functions: https://www.cog-genomics.org/plink/2.0/
 
 # R and Rstudio Installation
 Video for installing R and Rstudio for macbook: https://www.youtube.com/watch?v=AEebOXiMyyI
