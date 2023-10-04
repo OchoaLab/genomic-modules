@@ -33,12 +33,12 @@ Alternatively, you can find it in the launchpad >> others
 
 You can manually type the path to the directory, or you can drag the folder after the `cd` command. (Note that there should be a `space` between `cd` and the path.
 
-<img src="https://github.com/OchoaLab/genomic-modules/assets/53951161/ca3205d8-9cf4-4c91-a0b6-ec726a75d2f9" width="800">
+<img src="https://github.com/OchoaLab/genomic-modules/assets/53951161/08086890-6f0b-4e87-961c-fd96c0fbe869" width="800">
 
 
 and you will get this：
 
-<img width="800" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/f46d08a5-f56a-4eb7-a3be-5a30f7d16e9f">
+<img width="800" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/b4686559-d09e-41b2-ab9d-e38039ec375a">
 
 3. Hit `return` and you should be in the directory which has the plink files. Note that the path to the directory on your terminal will look different to what I have in the picture above. 
 
@@ -125,7 +125,7 @@ Before installing the packages, we will need to create a R project. If you are n
 
 3. For “Directory name:” enter `GWAS`. For “Create project as subdirectory of”, click `Browse…` and then nevigate to where you downloaded the plink files and plink2 then clink `Choose`.
 
-   <img src="https://github.com/OchoaLab/genomic-modules/assets/53951161/8a9acedf-c7ce-43f1-b183-4705887da893" width="500">
+   <img src="https://github.com/OchoaLab/genomic-modules/assets/53951161/118a0585-69c0-4165-a5e1-ed3ba3b0ee16" width="500">
 
 
 ### Installation
