@@ -2,9 +2,11 @@
 
 ## Before running
 
-Check that your input genotype files are in the same folder as your `plink2` executable and your R project in a folder named `GWAS`, and run the following commands from that same directory on your terminal.
+Check that your input genotype files are in the same folder as your `plink2` executable  and run the following commands from that same directory on your terminal.
 
-<img width="475" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/1dbd0c0f-ccbc-46d5-9e08-6394addd61cc">
+<img width="323" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/957c4c44-a5ea-47c0-84b1-ad5646d1abe9">
+
+
 
 ## Data description
 
@@ -90,8 +92,41 @@ The terminal output is again omitted here.
 	--out African.filtered
 ```
 
+# Data visualization in google colab (with R)
 
-# Data visualization in R
+Here is the link to google colab https://colab.research.google.com/. Go to this webpage and login or create a new account.
+
+## Open the GWAS_R_Visual.ipynb in google colab
+1. Open a new notebook by:
+
+![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/3b26c690-7320-4b03-9d86-ace053785a03)
+
+
+2. In the window that opens, choose `Upload`, then you can either click on browse and find your GWAS_Visual_R.ipynb or drag this file directly into the window.
+
+![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/5c6db674-ef74-400d-864b-f62c279c8544)
+
+## Change runtime type:
+
+1. Click `Runtime` and click `Change runtime type`
+   
+![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/6e2de2d9-b407-4d6d-88e7-e321c06604dd)
+
+2. In the window that opens, choose `R` in `Runtime type` and click `Save`
+
+![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/1c7780eb-c53d-4ac4-8abe-7c939a25a596)
+
+
+## Run R command for each chunk
+
+We will focus on the google colab for all the remaining steps. You can come back and check the exercise answer below.
+
+
+
+
+
+
+# Data visualization in R (Optional - Answers at the end)
 
 ## Set working directory
 This will help your R to locate the files directly:
