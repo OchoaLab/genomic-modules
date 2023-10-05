@@ -30,8 +30,6 @@ See downloading instructions: https://www.cog-genomics.org/plink/2.0/
 
 ### Mac OS
 
-#### MAC-M1
-
 1. Open a terminal on your macbook (you can find it in Applications -> Utilities -> Terminal)
 
 <img src="https://github.com/OchoaLab/genomic-modules/assets/53951161/dc1beb98-7106-47a7-9914-4a58744a778a" width="800">
@@ -57,9 +55,18 @@ and you will get this：
 
 
 5. Copy this in your terminal to download and install plink2
+
+For M1-Chip
 ```
 wget https://s3.amazonaws.com/plink2-assets/alpha4/plink2_mac_arm64_20230813.zip
 unzip plink2_mac_arm64_20230813.zip
+./plink2
+```
+
+For Intel-Chip
+```
+wget https://s3.amazonaws.com/plink2-assets/alpha4/plink2_mac_20230813.zip
+unzip plink2_mac_20230813.zip
 ./plink2
 ```
 
@@ -81,13 +88,28 @@ Commands include --rm-dup list, --make-bpgen, --export, --freq, --geno-counts,
 "plink2 --help | more" describes all functions.
 ```
 
-#### MAC-Intel
-The first few steps to nevigate to the data directory is the same as MAC-M1
+
+Get error message? command not found: wget? Maybe you don't have wget installed in your laptop. 
+
+1. Copy https://s3.amazonaws.com/plink2-assets/alpha4/plink2_mac_arm64_20230813.zip into your browser (or https://s3.amazonaws.com/plink2-assets/alpha4/plink2_mac_20230813.zip if you're using intel-chip), hit `return` and in this way you can download plink2 as well.
+
+2. Drag the zip file you just downloaded into the `data` folder which contains your plink files
+   
+3. Copy this in your terminal and install plink2
+   
+For M1-Chip 
 ```
-wget https://s3.amazonaws.com/plink2-assets/alpha4/plink2_mac_20230813.zip
+unzip plink2_mac_arm64_20230813.zip
+./plink2
+```
+
+For Intel-Chip
+```
 unzip plink2_mac_20230813.zip
 ./plink2
 ```
+
+
 
 ### windows
 #### Windows 64-bit
