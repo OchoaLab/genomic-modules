@@ -2,7 +2,7 @@ To make the most of our lecture time, it'd be awesome if you could download and 
 All you'll need to do/try is to download plink files, install plink2, and download our colab notebook.
 
 # Plink Data
-Download the data folder under day5
+Download the data folder and Result folder under day5
 ## option 1
 you can download the whole repo:
 ![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/9df1b960-5dd6-4baa-a23a-af88711b3321)
@@ -12,6 +12,8 @@ Nevigate to genomic-modules/day5/data, and download the files in red frames one 
 ![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/c6b6a220-3908-4211-8969-7222cfa4a253)
 Click on the file name and then click the download button:
 ![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/27f43063-7d6b-40d5-8466-d3067b8b2ffc)
+
+You can use the same steps to download `Result` file under day5
 
 # Download R code
 
