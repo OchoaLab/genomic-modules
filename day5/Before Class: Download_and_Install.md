@@ -92,7 +92,12 @@ unzip plink2_win64_20230813.zip
 
 You can check the plink2 documentations for file formats and availble functions: https://www.cog-genomics.org/plink/2.0/
 
-# R and Rstudio Installation
+# Download R code
+
+We will use google co-lab to run R commands. You can find the R code in .ipynb format under day5 in the repo. Download it and you're ready for the exercise!
+
+# R and Rstudio Installation (Optional)
+
 Video for installing R and Rstudio for macbook: https://www.youtube.com/watch?v=AEebOXiMyyI
 
 Video for installing R and Rstudio for windows: https://www.youtube.com/watch?v=TFGYlKvQEQ4
