@@ -92,6 +92,12 @@ The terminal output is again omitted here.
 	--out African.filtered
 ```
 
+
+
+
+
+
+
 # Data visualization in google colab (with R)
 
 Here is the link to google colab https://colab.research.google.com/. Go to this webpage and login or create a new account.
@@ -119,7 +125,10 @@ Here is the link to google colab https://colab.research.google.com/. Go to this 
 
 ## Run R command for each chunk
 
-We will focus on the google colab for all the remaining steps. You can come back and check the exercise answer below.
+We will focus on the google colab for all the remaining steps. You can come back and check the exercise answers provided below.
+
+
+
 
 
 
