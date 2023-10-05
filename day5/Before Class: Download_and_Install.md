@@ -1,3 +1,6 @@
+To make the most of our lecture time, it'd be awesome if you could download and install everything using the provided instructions before we meet. This way, we can dive straight into the good stuff during the lecture.
+All you'll need to do/try is to download plink files, install plink2, and download our colab notebook.
+
 # Plink Data
 Download the data folder under day5
 ## option 1
