@@ -15,7 +15,7 @@ Click on the file name and then click the download button:
 
 # Download R code
 
-We will use google co-lab to run R commands. You can find the R code in .ipynb format under day5 in the repo. Download it and you're ready for the exercise!
+We will use google co-lab to run R commands. You can find the R code in `GWAS_Visual_R.ipynb` under day5 in the repo. Try to download it use the same way described above (if you chose option 1 in the last step, you already have it!)
 
 # Plink2 Downloading and Installation
 We will run all the plink2 commands in shell (command line). If you are not familiar with shell or command line, that's totally fine! 
