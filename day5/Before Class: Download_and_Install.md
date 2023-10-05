@@ -13,6 +13,10 @@ Nevigate to genomic-modules/day5/data, and download the files in red frames one 
 Click on the file name and then click the download button:
 ![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/27f43063-7d6b-40d5-8466-d3067b8b2ffc)
 
+# Download R code
+
+We will use google co-lab to run R commands. You can find the R code in .ipynb format under day5 in the repo. Download it and you're ready for the exercise!
+
 # Plink2 Downloading and Installation
 We will run all the plink2 commands in shell (command line). If you are not familiar with shell or command line, that's totally fine! 
 
@@ -95,9 +99,6 @@ unzip plink2_win64_20230813.zip
 
 You can check the plink2 documentations for file formats and availble functions: https://www.cog-genomics.org/plink/2.0/
 
-# Download R code
-
-We will use google co-lab to run R commands. You can find the R code in .ipynb format under day5 in the repo. Download it and you're ready for the exercise!
 
 # R and Rstudio Installation (Optional)
 
