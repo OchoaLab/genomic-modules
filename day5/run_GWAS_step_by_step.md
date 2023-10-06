@@ -71,7 +71,7 @@ End time: Thu Sep 21 09:57:55 2023
 
 ## Principal component analysis (PCA)
 
-Next we calculate the top 10 principal components (PCs), needed both to visualize population structure and to control for in when performing association.
+Next we calculate the top 10 principal components (PCs), needed both to visualize population structure and to control when performing association.
 The below command generates the file `African.filtered.eigenvec`, which calculates the PCs for each sample (they are technically "eigenvectors"), and `African.filtered.eigenval` are their corresponding eigenvalues (which are unused in this example).
 For brevity the terminal output is not shown.
 ```bash
