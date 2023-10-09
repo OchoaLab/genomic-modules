@@ -16,7 +16,7 @@ The genotype data is the African ancestry subset of 1000 Genomes, for chromosome
 - `African.psam`: plain text table describing individuals, including their phenotype (which we simulated for this exercise to exactly match high-risk genotypes according to the standard APOL1 kidney disease model).
 - `African.pvar`: plain text table describing variants (their IDs, locations, reference and alternate alleles).
 
-There's two additional files we will use for this exercise:
+There're two additional files we will use for this exercise:
 
 - `variant_ID_APOL1_G1_and_G2.txt`: list of true causal variants for our simulated APOL1 kidney disease risk phenotype
 - `sample_population_info_1kgp.tsv`: table that relates samples to their population labels.
