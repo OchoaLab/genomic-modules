@@ -1,4 +1,4 @@
-# Genomic Resource Modules
+# Genomic Resource Modules <img src="logo-CCGR-GSP.png" alt="Genomic Scholars Program" align="right" />
 
 ## Goal
 
