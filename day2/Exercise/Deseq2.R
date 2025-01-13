@@ -9,7 +9,7 @@ library("DESeq2")
 library("ggplot2")
 library("apeglm")
 
-setwd("/Users/revathy/Personal/CAGT/GenomicResourceModules/Spring2025")
+setwd("</path/to/data_directory/>")
 
 countData<- read.csv('data/GSE227234_RawCount_subset.csv', header = TRUE, sep = ",")
 head(countData)
