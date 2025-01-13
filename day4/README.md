@@ -1,4 +1,4 @@
-### Contents for Day 3:
+### Contents for Day 4:
 
 **Lecture:**	From Genetic Discovery to Therapy (FSGS: APOL1) <br>
 
