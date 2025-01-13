@@ -1,9 +1,9 @@
 ### Content for Day2
 
-**Lecture:**	GWAS and Population Structure	by Dr. Alex Ochoa <br>
+**Lecture:**	GWAS and Population Structure <br>
 
-**Exercise:**	Genotype and phenotype (using R studio)	by Yuncheng Duan <br>
+**Exercise:**	Genotype and phenotype (using R studio) <br>
 
-**Lecture:**	Gene Regulation and Non-coding	by Dr. Tim Reddy <br>
+**Lecture:**	Gene Regulation and Non-coding <br>
 
-**Exercise:**	DESeq Analyses (using R studio)	by Revathy Venukuttan 
+**Exercise:**	DESeq Analyses (using R studio)
