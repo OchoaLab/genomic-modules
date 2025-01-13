@@ -15,7 +15,7 @@ These modules enable researchers from diverse labs to use publicly available gen
 
 ## Content
 
-This is a series spread across 3 days of 2 hour sessions with lectures and hands-on exercises. The schedule is given below: 
+This is a workshop series spread across 3 days of 2 hour sessions with lectures and hands-on exercises. The schedule is given below: 
 
 | Date    |	Time        |	Type     |	Topic                                                                      |
 |---------|-------------|----------|-----------------------------------------------------------------------------|
