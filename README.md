@@ -11,7 +11,11 @@ These modules enable researchers from diverse labs to use publicly available gen
 
 - To understand how disease genes are discovered using genome-wide association studies and admixture mapping, using kidney disease and APOL1 as as example.
 - To understand how population and family structure confound association studies, and apply solutions for modelling such relatedness.
-- To learn approaches to study how a variant has an effect on gene expression and may result in a disease. 
+- To learn approaches to study how a variant has an effect on gene expression and may result in a disease.
+
+## Prework
+
+Links to resources for pre-reading can be found in [Prework](Prework/Before Class_ Download_and_Install.md)
 
 ## Content
 
@@ -30,7 +34,3 @@ This is a workshop series spread across 3 days of 2 hour sessions with lectures 
 | 2/13/25	| 3:00-3:30pm	| Lecture	 | The role of APOL1 in Sickle Cell Nephropathy: a study using GWAS |
 | 2/13/25	| 3:30-4:30pm	| Exercise | Comparative open chromatin analyses |
 
-
-## Prework
-
-Links to resources for pre-reading can be found in [Wiki](https://github.com/OchoaLab/genomic-modules/wiki)
