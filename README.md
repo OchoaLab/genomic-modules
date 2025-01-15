@@ -15,7 +15,7 @@ These modules enable researchers from diverse labs to use publicly available gen
 
 ## Prework
 
-Links to resources for pre-reading can be found in [Prework](Prework/Before Class_ Download_and_Install.md)
+Links to resources for pre-reading can be found in [Prework](https://github.com/OchoaLab/genomic-modules/blob/main/Prework/Before%20Class_%20Download_and_Install.md)
 
 ## Content
 
