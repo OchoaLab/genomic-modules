@@ -18,10 +18,6 @@ Click on the file name and then click the download button:
 
 You can use the same steps to download `Result` file under day5
 
-# Download R code
-
-We will use google co-lab to run R commands. You can find the R code in `GWAS_Visual_R.ipynb` under day5 in the repo. Try to download it use the same way described above (if you chose option 1 in the last step, you already have it!)
-
 # Plink2 Downloading and Installation
 We will run all the plink2 commands in shell (command line). If you are not familiar with shell or command line, that's totally fine! 
 
@@ -127,7 +123,7 @@ unzip plink2_win64_20230813.zip
 You can check the plink2 documentations for file formats and availble functions: https://www.cog-genomics.org/plink/2.0/
 
 
-# R and Rstudio Installation (Optional)
+# R and Rstudio Installation 
 
 Video for installing R and Rstudio for macbook: https://www.youtube.com/watch?v=AEebOXiMyyI
 
@@ -180,3 +176,6 @@ library("tidyverse")
 library("qqman")
 ```
 
+# Download R for co-lab (Optional)
+
+If your installation of R/Rstudio is unsuccessful, you can still use google co-lab to run R commands. You can find the R code in `GWAS_Visual_R.ipynb` under day5 in the repo. Try to download it use the same way described above (if you chose option 1 in the last step, you already have it!)
