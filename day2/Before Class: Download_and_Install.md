@@ -1,8 +1,8 @@
 To make the most of our lecture time, it'd be awesome if you could download and install everything using the provided instructions before we meet. This way, we can dive straight into the good stuff during the lecture.
-All you'll need to do/try is to download plink files, install plink2, and download our colab notebook.
+All you'll need to do/try is to (1) download files with data, (2) download and install plink2 (3) download and install R, RStudio, and Rscript, and/or download our colab notebook.
 
 # Plink Data
-Download the data folder and Result folder under day5
+Download the data folder and Result folder under day2
 ## option 1
 you can download the whole repo:
 ![image](https://github.com/user-attachments/assets/377ce83a-f464-44b9-98bb-ef54b2483069)
