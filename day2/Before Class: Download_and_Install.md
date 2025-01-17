@@ -5,7 +5,8 @@ All you'll need to do/try is to download plink files, install plink2, and downlo
 Download the data folder and Result folder under day5
 ## option 1
 you can download the whole repo:
-![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/9df1b960-5dd6-4baa-a23a-af88711b3321)
+![image](https://github.com/user-attachments/assets/377ce83a-f464-44b9-98bb-ef54b2483069)
+
 
 ## option 2
 Nevigate to genomic-modules/day5/data, and download the files in red frames one by one:
