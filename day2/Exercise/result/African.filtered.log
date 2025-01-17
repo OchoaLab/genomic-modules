@@ -1,0 +1,25 @@
+PLINK v2.00a4.5 M1 (13 Aug 2023)
+Options in effect:
+  --covar African.filtered.eigenvec
+  --glm
+  --out African.filtered
+  --parameters 1
+  --pfile African.filtered
+
+Hostname: Yunchengs-MacBook-Air.local
+Working directory: /Users/yunchengduan/OneDrive - Duke University/Projects/GenomicModule/data
+Start time: Wed Oct  4 21:21:55 2023
+
+Random number seed: 1696468915
+8192 MiB RAM detected; reserving 4096 MiB for main workspace.
+Using up to 8 compute threads.
+677 samples (0 females, 0 males, 677 ambiguous; 677 founders) loaded from
+African.filtered.psam.
+31921 variants loaded from African.filtered.pvar.
+1 binary phenotype loaded (112 cases, 565 controls).
+10 covariates loaded from African.filtered.eigenvec.
+Calculating allele frequencies... done.
+--glm logistic-Firth hybrid regression on phenotype 'PHENO1': done.
+Results written to African.filtered.PHENO1.glm.logistic.hybrid .
+
+End time: Wed Oct  4 21:21:55 2023
