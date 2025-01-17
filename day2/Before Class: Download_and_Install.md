@@ -176,6 +176,9 @@ library("tidyverse")
 library("qqman")
 ```
 
+# Download Rmarkdown file for GWAS visualization
+You can find the R code in `GWAS_Visual.Rmd` under day2/exercise in the repo. Try to download it use the same way described above (if you chose option 1 in the last step, you already have it!)
+
 # Download R for co-lab (Optional)
 
-If your installation of R/Rstudio is unsuccessful, you can still use google co-lab to run R commands. You can find the R code in `GWAS_Visual_R.ipynb` under day5 in the repo. Try to download it use the same way described above (if you chose option 1 in the last step, you already have it!)
+If your installation of R/Rstudio is unsuccessful, you can still use google co-lab to run R commands. You can find the R code in `GWAS_Visual_R.ipynb` under day2/exercise in the repo. Try to download it use the same way described above (if you chose option 1 in the last step, you already have it!)
