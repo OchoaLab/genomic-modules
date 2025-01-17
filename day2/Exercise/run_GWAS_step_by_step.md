@@ -135,7 +135,7 @@ We will focus on the google colab for all the remaining steps. You can come back
 
 
 
-# Data visualization in R (Optional - Answers at the end)
+# Data visualization in R/Rstudio
 
 ## Set working directory
 This will help your R to locate the files directly:
