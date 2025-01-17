@@ -13,7 +13,8 @@ Nevigate to genomic-modules/day5/data, and download the files in red frames one 
 ![image](https://github.com/user-attachments/assets/eb905486-26da-4d64-9914-0dc12f7e3e60)
 
 Click on the file name and then click the download button:
-![image](https://github.com/OchoaLab/genomic-modules/assets/53951161/27f43063-7d6b-40d5-8466-d3067b8b2ffc)
+![image](https://github.com/user-attachments/assets/72b07bb6-29a6-4371-a8ef-4a4d5aec46de)
+
 
 You can use the same steps to download `Result` file under day5
 
