@@ -6,7 +6,7 @@ Check that your input genotype files are in the same folder as your `plink2` exe
 
 <img width="323" alt="image" src="https://github.com/OchoaLab/genomic-modules/assets/53951161/957c4c44-a5ea-47c0-84b1-ad5646d1abe9">
 
-And navigate to the data folder. Not sure how to do that? check this https://github.com/OchoaLab/genomic-modules/blob/main/day5/Before%20Class%3A%20Download_and_Install.md#downloading-examples
+And navigate to the data folder. Not sure how to do that? check this https://github.com/OchoaLab/genomic-modules/blob/main/day2/Before%20Class%3A%20Download_and_Install.md#downloading-examples
 
 ## Data description
 
