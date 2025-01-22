@@ -57,15 +57,15 @@ and you will get this：
 
 For M1-Chip
 ```
-wget https://s3.amazonaws.com/plink2-assets/alpha4/plink2_mac_arm64_20230813.zip
-unzip plink2_mac_arm64_20230813.zip
+wget https://s3.amazonaws.com/plink2-assets/alpha5/plink2_mac_arm64_20241222.zip
+unzip plink2_mac_arm64_20241222.zip
 ./plink2
 ```
 
 For Intel-Chip
 ```
-wget https://s3.amazonaws.com/plink2-assets/alpha4/plink2_mac_20230813.zip
-unzip plink2_mac_20230813.zip
+wget https://s3.amazonaws.com/plink2-assets/alpha5/plink2_mac_20241222.zip
+unzip plink2_mac_20241222.zip
 ./plink2
 ```
 
@@ -90,7 +90,7 @@ Commands include --rm-dup list, --make-bpgen, --export, --freq, --geno-counts,
 
 **Get error message? command not found: wget? Maybe you don't have wget installed in your laptop.**
 
-1. Copy https://s3.amazonaws.com/plink2-assets/alpha4/plink2_mac_arm64_20230813.zip into your browser if your computer has a M1 chip (or https://s3.amazonaws.com/plink2-assets/alpha4/plink2_mac_20230813.zip if you're using intel-chip), hit `return` and in this way you can download plink2 as well.
+1. Copy plink2_mac_arm64_20241222.zip into your browser if your computer has a M1 chip (or https://s3.amazonaws.com/plink2-assets/alpha5/plink2_mac_20241222.zip if you're using intel-chip), hit `return` and in this way you can download plink2 as well.
 
 2. Drag the zip file you just downloaded into the `data` folder which contains your plink files
    
@@ -98,13 +98,13 @@ Commands include --rm-dup list, --make-bpgen, --export, --freq, --geno-counts,
    
 For M1-Chip 
 ```
-unzip plink2_mac_arm64_20230813.zip
+unzip plink2_mac_arm64_20241222.zip
 ./plink2
 ```
 
 For Intel-Chip
 ```
-unzip plink2_mac_20230813.zip
+unzip plink2_mac_20241222.zip
 ./plink2
 ```
 
@@ -113,10 +113,12 @@ unzip plink2_mac_20230813.zip
 ### windows
 #### Windows 64-bit
 ```
-wget https://s3.amazonaws.com/plink2-assets/alpha4/plink2_win64_20230813.zip
-unzip plink2_win64_20230813.zip
+wget https://s3.amazonaws.com/plink2-assets/alpha5/plink2_win64_20241222.zip
+unzip plink2_win64_20241222.zip
 ./plink2
 ```
+#### other types of system
+you can check the list here: https://www.cog-genomics.org/plink/2.0/
 
 # Using Plink2
 
