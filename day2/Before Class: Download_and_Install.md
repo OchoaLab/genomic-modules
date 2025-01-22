@@ -90,7 +90,7 @@ Commands include --rm-dup list, --make-bpgen, --export, --freq, --geno-counts,
 
 **Get error message? command not found: wget? Maybe you don't have wget installed in your laptop.**
 
-1. Copy plink2_mac_arm64_20241222.zip into your browser if your computer has a M1 chip (or https://s3.amazonaws.com/plink2-assets/alpha5/plink2_mac_20241222.zip if you're using intel-chip), hit `return` and in this way you can download plink2 as well.
+1. Copy  https://s3.amazonaws.com/plink2-assets/alpha5/plink2_mac_arm64_20241222.zip into your browser if your computer has a M1 chip (or https://s3.amazonaws.com/plink2-assets/alpha5/plink2_mac_20241222.zip if you're using intel-chip), hit `return` and in this way you can download plink2 as well.
 
 2. Drag the zip file you just downloaded into the `data` folder which contains your plink files
    
